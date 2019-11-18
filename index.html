@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/index.css?v=1.0">
 </head>
     <body>
+       
         <header class="heading">
             <h1>
             Simple Loan Calculator
@@ -18,27 +19,36 @@
                 The Simple Loan Calculator will determines your estimated payments for different loan amount rates and terms.
             </p class="first-paragraph">
             <section class="Big-box-border">
+                    <form id="form-loan">
                 <article class="topbar">
                     <h3>
                         Simple Loan Calculator
                     </h3>
                 </article>
                 <article class="loan-amount-section">
-                    <p>1</p>
+                    <!-- <ul class="grid-loan-amount">
+                        <li class="number-1">1</li>
+                        <li >Loan Amount</li>
+                        <li>$</li>
+                        <li><input type="text"></li>
+                    </ul> -->
+                    <p class="number-1">1</p>
                     <h4>Loan Amount</h4>
-                    <label>$</label>
-                    <input type="text">
+                    <label class="dollar">$</label>
+                    <input id="txtBoxLoanAmount"type="text">
                 </article>
                 <article class="number-of-years-section">
-                    <p>2</p>
+                    <p class="number-2">2</p>
                     <h4>Number of Years</h4>
-                    <input type="text">
+                    <div>&nbsp;</div>
+                    <input id="txtBoxNOY" type="text">
                 </article>
                 <article class="calculator-section">
-                    <h4>
-                        Calculate
-                    </h4>
+                    
+                        <button class="calbutton">Calculate</button>
+                
                 </article>
+            </form>
             </section>
         <h3>
             Your Monthly Payments
@@ -53,8 +63,15 @@
                 <li>Number of Years</li>
                 <li>Monthly Payments</li>
             </ul>
+            <ul class="list">
+                <li><label id="lblAmount">Show result here</label></li>
+                <li><label id="lblIntRate"></label></li>
+                <li><label id="lblNOY"></label></li>
+                <li><label id="lblMonPayment"></label></li>
+            </ul>
         </article>
         </main>
         <script src="js/index.js"></script>  
+
     </body>
 </html>
