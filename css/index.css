@@ -1,0 +1,109 @@
+
+:root{
+    --light-grey: #e1e4e6;
+--grey:#616669;
+--blueish-grey:#d0eef7;
+--blue:#4767f5;
+--light:#ffffff;
+}
+body{
+    width: 100%;
+    min-height: 100%;
+    background-color: var(--light-grey);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left;
+}
+.heading{
+    border-bottom: var(--grey)solid 0.01em;
+    width: 70%;
+    margin: 0;
+    padding:0;
+}
+.heading h1{
+    padding-left: 4em;
+}
+.first-paragraph{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+}
+.Big-box-border{
+    width: 50%;
+    border: var(--grey)solid 0.01em;
+    box-shadow:0em 0.2em 0.1em #616669;
+    padding:1em;
+}
+.topbar{
+    background-color: var(--blueish-grey);
+    color: var(--blue);
+    margin: -0.5em;
+padding: 0.1px 1em;
+}
+.loan-amount-section{
+    display: grid;
+    grid-template-columns: 2% 55% 2% 40%;
+    border-bottom: var(--grey)solid 0.01em;
+    padding-bottom: 0.5em;
+    padding-top: 1em;
+    margin-bottom: 3em;
+    width:100%
+}
+.dollar{
+    text-align: right;
+    padding-right: 0.2em;
+    padding-top: 1.5em;
+}
+.number-1{
+    width:50%;
+    padding: 0;
+    padding-top: 0.3em;
+    text-align: center;
+    border-radius: 1em;
+    background-color: var(--blue);
+}
+ul li{
+    display:grid;
+}
+.number-of-years-section{
+    display: grid;
+    grid-template-columns: 2% 55% 2% 40%;
+    width:100%;
+    margin-top: 3em;
+    padding-bottom: 0.5em;
+    padding-top: 0.6em;
+    background-color: var(--light-grey);
+    border-top: var(--grey)solid 0.01em;
+}
+.number-2{
+    width:50%;
+    padding: 0.2em 0;
+    text-align: center;
+    border-radius: 1em;;
+    background-color: var(--blue);
+}
+.calculator-section {
+    text-align: center!important;
+}
+.calbutton{
+    width:20%;
+    background-color: var(--blue);
+    color: var(--light);
+    border-radius: 0.5em;
+    padding:1em;
+    text-align: center;
+}
+.bottombar{
+width: 70%;
+padding: 1.5em 0em;
+}
+.list{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: var(--grey)solid 0.01em;
+    box-shadow: 0.5em;
+    margin-top: 1em;
+    list-style: none;
+}
