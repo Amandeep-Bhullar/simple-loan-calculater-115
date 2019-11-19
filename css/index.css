@@ -14,6 +14,7 @@ body{
     padding: 0;
     position: relative;
     text-align: left;
+    margin-left: 2em;
 }
 .heading{
     border-bottom: var(--grey)solid 0.01em;
